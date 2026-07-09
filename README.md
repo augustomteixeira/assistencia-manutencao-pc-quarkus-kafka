@@ -1,1 +1,1 @@
-#Sistema de Assistência Técnica de Manutenção de PCs com Quarkus e Kafka
+# Sistema de Assistência Técnica de Computadores com Quarkus e Kafka
