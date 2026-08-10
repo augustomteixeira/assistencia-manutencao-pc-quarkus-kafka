@@ -10,5 +10,10 @@ Trata-se de uma aplicação que gerencia informações de pedidos para uma assis
 # Como rodar?
 
 ## Executar o módulo pedidos
+Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
+
+Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional de digite o camando ```mvn clean quarkus:dev```. 
+
+
 <img width="1500" height="640" alt="Diagrama-funcionamento-kafka" src="https://github.com/user-attachments/assets/3d3f7d0f-cc9e-4737-8787-1d562c76249d" />
 
