@@ -3,16 +3,16 @@
 Trata-se de uma aplicação que gerencia informações de pedidos para uma assistência técnica.
 
 É uma arquitetura de microsserviços composta pelos seguintes módulos:
-* **Pedidos**, que tem as informações dos clientes, seus respectivos pedidos e os serviços contemplados em cada pedido. Roda na porta ```8080```
-* **Pagamentos**, que permite a confirmação de um pagamento e a atualização do pedido a partir disso. Roda na porta ```8082```
-* **Auditoria**, que informa no log operações efetuadas, como criação de pedido e confirmação de pagamento. Roda na porta ```8081```
+* **Pedidos**, que gerencia os clientes, seus respectivos pedidos e os serviços contemplados em cada pedido. Roda na porta ```8080```.
+* **Auditoria**, que informa no log operações efetuadas, como criação de pedido e confirmação de pagamento. Roda na porta ```8081```.
+* **Pagamentos**, que permite a confirmação de um pagamento e a atualização do pedido a partir disso. Roda na porta ```8082```.
 
 # Como rodar?
 
 ## Executar o módulo Pedidos
-Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
+Abra o projeto na sua IDE de preferência (Eclipse, Intellij, etc.).
 
-Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o camando ```mvn clean quarkus:dev```. 
+Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o comando ```mvn clean quarkus:dev```. 
 
 Abra o Postman, importe a coleção ```assistencia-manut-pc-pedidos.postman_collection.json``` e accesse os endpoints.
 
