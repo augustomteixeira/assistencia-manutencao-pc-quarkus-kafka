@@ -3,9 +3,9 @@
 Trata-se de uma aplicação que gerencia informações de pedidos para uma assistência técnica.
 
 É uma arquitetura de microsserviços composta pelos seguintes módulos:
-* **Pedidos**, que tem as informações dos clientes, seus respectivos pedidos e os serviços contemplados em cada pedido.
-* **Pagamentos**, que permite a confirmação de um pagamento e a atualização do pedido a partir disso.
-* **Auditoria**, que informa no log operações efetuadas, como criação de pedido e confirmação de pagamento.
+* **Pedidos**, que tem as informações dos clientes, seus respectivos pedidos e os serviços contemplados em cada pedido. Roda na porta ```8080```
+* **Pagamentos**, que permite a confirmação de um pagamento e a atualização do pedido a partir disso. Roda na porta ```8082```
+* **Auditoria**, que informa no log operações efetuadas, como criação de pedido e confirmação de pagamento. Roda na porta ```8081```
 
 # Como rodar?
 
