@@ -1,0 +1,86 @@
+{
+  "info": {
+    "_postman_id": "2a794a70-4682-431a-a25f-ba0f8b414115",
+    "name": "assistencia-manut-pc-pedidos",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "4690100"
+  },
+  "item": [
+    {
+      "name": "lista pedidos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/pedidos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "pedidos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "novo pedido",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": null,\r\n  \"dataHora\": null,\r\n  \"cliente\": {\r\n    \"id\": 8\r\n  },\r\n  \"servicos\": [\r\n    {\r\n      \"id\": 1,\r\n      \"tipo\": \"FORMATACAO\",\r\n      \"preco\": 150\r\n    }\r\n  ],\r\n  \"valorTotal\": 0,\r\n  \"status\": \"RECEBIDO\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/pedidos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "pedidos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "alterar pedido",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"id\": 1,\r\n  \"dataHora\": null,\r\n  \"cliente\": {\r\n    \"id\": 8\r\n  },\r\n  \"servicos\": [\r\n    {\r\n      \"id\": 1,\r\n      \"tipo\": \"FORMATACAO\",\r\n      \"preco\": 150\r\n    }\r\n  ],\r\n  \"valorTotal\": 0,\r\n  \"status\": \"RECEBIDO\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/pedidos/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "pedidos",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
