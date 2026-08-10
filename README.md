@@ -21,7 +21,7 @@ Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
 
 Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o camando ```mvn clean quarkus:dev```. 
 
-Abra o Postman, importe a coleção ```assistencia-manut-pc-pedidos.postman_collection.json``` e accesse os endpoints.
+Abra o Postman, importe a coleção ```assistencia-manut-pc-pagamentos.postman_collection.json``` e acesse os endpoints.
 
 ## Executar o módulo Auditoria
 Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
