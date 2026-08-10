@@ -31,8 +31,8 @@ Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Siste
 Veja as saídas que serão impressas no log ao efetuar operações como **Criar Pedido** e **Confirmar Pagamento**.
 
 ## Executar o Kafka
-No Terminal, abra o diretório raiz do projeto, onde fica o arquivo ```doccker-compose.yml``` e rode o comando abaixo:
-```
+No Terminal, abra o diretório raiz do projeto, onde fica o arquivo ```docker-compose.yml``` e rode o comando abaixo:
+```bash
 docker compose up
 ```
 
