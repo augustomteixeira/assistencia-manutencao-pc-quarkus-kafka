@@ -39,3 +39,12 @@ docker compose up
 ## Diagrama para representar a comunicação entre os módulos
 <img width="1500" height="640" alt="Diagrama-funcionamento-kafka" src="https://github.com/user-attachments/assets/3d3f7d0f-cc9e-4737-8787-1d562c76249d" />
 
+## Fluxo principal da aplicação
+
+1. O microsserviço **Pedidos** cria um novo pedido.
+2. Um evento **PedidoCriado** é publicado no Kafka.
+3. O microsserviço **Pagamentos** consome o evento e cria um pagamento.
+4. O microsserviço **Auditoria** imprime a criação do pedido.
+5. Após a confirmação do pagamento, o evento **PagamentoConfirmado** é publicado.
+6. O microsserviço **Pedidos** consome o evento e atualiza o status do pedido.
+7. O microsserviço **Auditoria** imprime a confirmação do pagamento.
