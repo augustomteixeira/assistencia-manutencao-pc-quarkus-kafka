@@ -47,5 +47,5 @@ docker compose up
 3. O microsserviço **Pagamentos** consome o evento e cria um pagamento.
 4. O microsserviço **Auditoria** imprime a criação do pedido.
 5. Após a confirmação do pagamento, o evento **PagamentoConfirmado** é publicado.
-6. O microsserviço **Pedidos** consome o evento e atualiza o status do pedido para `CONCLUÍDO`.
+6. O microsserviço **Pedidos** consome o evento e atualiza o status do pedido para `CONCLUIDO`.
 7. O microsserviço **Auditoria** imprime a confirmação do pagamento.
