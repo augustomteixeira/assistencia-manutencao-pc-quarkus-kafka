@@ -10,21 +10,21 @@ Trata-se de uma aplicação que gerencia informações de pedidos para uma assis
 # Como rodar?
 
 ## Executar o módulo Pedidos
-Abra o projeto na sua IDE de preferência (Eclipse, Intellij, etc.).
+Abra o projeto na IDE sua de preferência (Eclipse, Intellij, etc.).
 
 Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o comando ```mvn clean quarkus:dev```. 
 
 Abra o Postman, importe a coleção ```assistencia-manut-pc-pedidos.postman_collection.json``` e acesse os endpoints.
 
 ## Executar o módulo Pagamentos
-Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
+Abra o projeto na IDE de sua preferência (Eclipse, Intelij, etc.).
 
 Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o comando ```mvn clean quarkus:dev```. 
 
 Abra o Postman, importe a coleção ```assistencia-manut-pc-pagamentos.postman_collection.json``` e acesse os endpoints.
 
 ## Executar o módulo Auditoria
-Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
+Abra o projeto na IDE de sua preferência (Eclipse, Intelij, etc.).
 
 Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o comando ```mvn clean quarkus:dev```. 
 
