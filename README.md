@@ -37,7 +37,8 @@ docker compose up
 ```
 
 ## Diagrama para representar a comunicação entre os módulos
-<img width="1500" height="640" alt="Diagrama-funcionamento-kafka" src="https://github.com/user-attachments/assets/3d3f7d0f-cc9e-4737-8787-1d562c76249d" />
+<img width="1500" height="570" alt="Diagrama funcionamento Kafka" src="https://github.com/user-attachments/assets/86fafd8c-41d1-4995-bcc6-b6c75aa5252e" />
+
 
 ## Fluxo principal da aplicação
 
