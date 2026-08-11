@@ -14,7 +14,7 @@ Abra o projeto na sua IDE de preferência (Eclipse, Intellij, etc.).
 
 Abra o diretório do projeto no terminal disponibilizado pela IDE ou no do Sistema Operacional e digite o comando ```mvn clean quarkus:dev```. 
 
-Abra o Postman, importe a coleção ```assistencia-manut-pc-pedidos.postman_collection.json``` e accesse os endpoints.
+Abra o Postman, importe a coleção ```assistencia-manut-pc-pedidos.postman_collection.json``` e acesse os endpoints.
 
 ## Executar o módulo Pagamentos
 Abra o projeto na sua IDE de preferência (Eclipse, Intelij, etc.).
@@ -46,5 +46,5 @@ docker compose up
 3. O microsserviço **Pagamentos** consome o evento e cria um pagamento.
 4. O microsserviço **Auditoria** imprime a criação do pedido.
 5. Após a confirmação do pagamento, o evento **PagamentoConfirmado** é publicado.
-6. O microsserviço **Pedidos** consome o evento e atualiza o status do pedido.
+6. O microsserviço **Pedidos** consome o evento e atualiza o status do pedido para **CONCLUÍDO**.
 7. O microsserviço **Auditoria** imprime a confirmação do pagamento.
